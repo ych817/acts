@@ -1,0 +1,38 @@
+{
+    "workbench.colorTheme": "Kimbie Dark",
+    "workbench.activityBar.location": "bottom",
+    "security.allowedUNCHosts": [
+        "wsl.localhost"
+    ],
+    "explorer.sortOrder": "type",
+    "git.openRepositoryInParentFolders": "never",
+    "workbench.startupEditor": "none",
+    "security.workspace.trust.untrustedFiles": "open",
+    "workbench.editorAssociations": {
+        "*.svg": "default"
+    },
+    "[javascript]": {
+        "editor.maxTokenizationLineLength": 2500
+    },
+    "editor.unicodeHighlight.nonBasicASCII": false,
+    "[pascal]": {},
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
+        },
+        "Command Prompt": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "args": [],
+            "icon": "terminal-cmd"
+        },
+        "Git Bash": {
+            "source": "Git Bash"
+        },
+    },
+    "terminal.integrated.automationProfile.osx": null
+}
