@@ -14,9 +14,18 @@ class natural_number:
                 result *= i
             return result
         
-    def __str__(self):
-        return f"Factorial of {self.n} is {self.factorial()}"
+    def is_prime(self):
+        if self.n < 2:
+            return False
+        for i in range(2, int(self.n**0.5) + 1):
+            if self.n % i == 0:
+                return False
+        return True
     
 
 n5 = natural_number(5)
 print(f"Factorial of {n5.n} is {n5.factorial()}")
+
+for n in range(1, 11): 
+    n_obj = natural_number(n)
+    print(f"Is {n} prime? {n_obj.is_prime()}")  
