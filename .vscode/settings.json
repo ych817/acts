@@ -1,5 +1,5 @@
 {
-    "workbench.colorTheme": "Kimbie Dark",
+    "workbench.colorTheme": "Monokai",
     "workbench.activityBar.location": "bottom",
     "security.allowedUNCHosts": [
         "wsl.localhost"
